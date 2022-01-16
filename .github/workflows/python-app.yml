@@ -31,3 +31,6 @@ jobs:
     - name: Test with pytest
       run: |
         python -m pytest -v tests/test_generator.py
+    - name: run app
+      run: 
+        python3 app.py
